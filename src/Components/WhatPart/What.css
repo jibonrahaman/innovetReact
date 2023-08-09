@@ -1,0 +1,119 @@
+ a{
+    text-decoration: none;
+ }
+#what{
+    background: #F6F5FF;
+    padding: 100px 0px;
+   }
+   
+   #what .what-part h2{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+
+   }
+    #what .what-part p{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    width: 350px;
+    margin-bottom: 56px;
+   }
+   #what .what-part a{
+    color: #fff;
+background: #1BBF00;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+padding: 20px 40px;
+transition: all linear 0.4s;
+border-radius: 40px;
+}
+#what .what-part a:hover{
+    background: #F6F5FF ;
+    color: #1BBF00;
+    border: 1px solid #1BBF00;
+}
+ .card-title h4{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+margin-top: 32px;
+ }
+ .card-title p{
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #726E9E;
+    margin-top: 16px;
+    width: 257px;
+    margin: 0 auto;
+ }
+
+ .card-title a{
+  padding: 10px 10px;
+  border-radius: 100px;
+  position: relative;
+  overflow: clip;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #141135;
+text-decoration: none;
+ }
+.card-title a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 92px ;
+    background: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 100px 100px 0px;
+    opacity: 0.3; 
+    transition: 0.4s;
+}
+.card-title a:hover::after{
+    left: 0px;
+    background: #fff;
+}
+.cardd{
+    background: #fff;
+    border-radius: 20px;
+    width: 350px;
+    height: 360px;
+}
+
+.card1{
+    padding: 50px 35px;
+}
+.cardd{
+    transition: all linear 0.5s;
+}
+.cardd:hover {
+background: #6B62C5;
+}
+.cardd:hover .card-title h4{
+    color: #fff;
+}.cardd:hover .card-title p{
+    color: #fff;
+}.cardd:hover .card-title a{
+    color: #fff;
+} 
+.card2{
+    margin-top: 30px;
+}

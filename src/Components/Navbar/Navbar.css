@@ -1,0 +1,32 @@
+.navbar{
+    background:rgb(22, 2, 108);
+}
+.navbar-expand-lg .navbar-nav .nav-item{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.navbar-nav .nav-item .nav-link{
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+color: #1BBF00;
+}
+.navbutton button{
+    padding: 18px 36px;
+    background: #1BBF00;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: .4s;
+     border: 1px solid #1BBF00 ;
+}
+
+.navbutton button:hover{
+    color: #fff;
+    background:0;
+   
+}

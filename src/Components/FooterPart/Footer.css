@@ -1,0 +1,104 @@
+#footer{
+    padding: 110px 0px;
+    background: #48409C;
+    margin-left: 0px;
+ }
+ a{
+    text-decoration: none;
+ }
+ ul,ol{
+    list-style: none;
+ }
+  #footer .innovate p{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+text-transform: capitalize;
+color: #FEFEFE;
+opacity: 0.9;
+width: 446px;
+margin-top: 44px;
+ }
+ #footer .line1 h4{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+text-transform: capitalize;
+color: #FEFEFE;
+ }
+  #footer .line ul li{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    padding-bottom: 10px;
+ }
+.line{
+	margin-top: 32px;
+	margin-left: -31px;
+}
+
+#footer .line1 ul li{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+
+text-transform: capitalize;
+
+color: #FEFEFE;
+}
+.down1{
+    position: relative;
+    top: 60px;
+}
+/* .down1{
+    position: relative;
+} */
+.down1 h3 {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-transform: capitalize;
+	color: #FEFEFE;
+	opacity: 0.9;
+	/* position: absolute;
+	top: 60px;
+	left: 0; */
+}
+.down1 h4 {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-transform: capitalize;
+	color: #FEFEFE;
+	opacity: 0.9;
+	position: absolute;
+	right: 20%;
+}
+.down1 h5 {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-transform: capitalize;
+	color: #FEFEFE;
+	opacity: 0.9;
+	/* position: absolute;
+	top: 60px;
+	left: 0; */
+}

@@ -1,0 +1,123 @@
+#about-part{
+    padding: 100px 0px;
+    background: #F8F8FF;
+ }
+ #about-part h2{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+color: #141135;
+margin-bottom: 170px;
+ }
+ #about-part .men-part{
+    width: 1060px;
+    height: 461px;
+    background: #FFFFFF;
+box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+border-radius: 20px;
+ }
+.men-part .iconpart{
+
+ color: #FF7628;
+ margin-bottom: 33px;
+ }
+ .iconpart i{
+    margin-top: 119px;
+ }
+ .mentext{
+    position: relative;
+ }
+ .men-text {
+	position: absolute;
+	top: -13px;
+	left: 138px;
+}
+.men-img{
+    position: relative;
+}
+#about-part .men-img img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-55%,-40%);
+	top: 50%;
+}
+.men-part .men-text h5 {
+	font-family: 'Paprika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	color: #726E9E;
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 48px;
+	margin-top: 111px;
+}
+ .men-part .men-text p{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #221A2C;
+    margin-bottom: 4px;
+    
+ }
+  .men-part .men-text span{
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+ }
+ .lefticon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #1BBF00;
+    position: relative;
+    left: 79px;
+    top: 511px;
+    transition: .4s;
+}
+.lefticon:hover{
+    background: #000;
+    color: #000;
+}
+
+ .lefticon i {
+	color: #fff;
+	position: absolute;
+	top: 17px;
+	left: 19px;
+	font-size: 25px;
+}
+.righticon {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #1BBF00;
+	position: relative;
+	top: 453px;
+	left: 90%;
+    transition: .4s;
+}
+.righticon:hover{
+    background: #000;
+    color: #000;
+}
+.righticon i {
+	color: #fff;
+	position: absolute;
+	top: 17px;
+	left: 19px;
+	font-size: 25px;
+}
+.red{
+    margin-top: 115px;
+}

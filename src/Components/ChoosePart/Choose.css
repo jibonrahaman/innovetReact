@@ -1,0 +1,95 @@
+#choose{
+    padding: 100px 0px;
+}
+
+.choose-left {
+    
+    transition: 0.5s;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.choose-left:hover {
+    border-radius: 12px;
+    box-shadow: 0px 2px 2px 0px rgba(162, 169, 192, 0.50);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+#choose .choose-left .choose-icon{
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    position: relative;
+}
+#choose .choose-left .choose-icon::after{
+    width: 25px;
+    height: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    margin-left: 13px;
+}
+#choose .choose-left p{    
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-top: -10px;
+    width: 319px;
+}
+#choos .img{
+    position: relative;
+}
+#choose .a {
+	margin-top: -64px;
+}
+#choose .b {
+	position: absolute;
+	top: 1620px;
+	left: -10px;
+	overflow: hidden;
+}
+.choos-right {
+	margin-left: 150px;
+	margin-top: -12px;
+}
+#choose .choos-right h2{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+#choose .choos-right p{
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    width: 393px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+#choose .choos-right .button {
+	margin-top: 40px;
+    color: #f9f9f9;
+    background: #1BBF00;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 40px;
+    border: none;
+    transition: all linear .5s;
+}
+
+#choose .choos-right button:hover{
+    background: #f9f9f9;
+    color: #1BBF00;
+    border: 1px solid #1BBF00;
+}

@@ -1,0 +1,38 @@
+#clientpart{
+    padding: 283px 0px;
+    background: #F9F9FB;
+    position: relative;
+}
+#clientpart .img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#clientpart .client-details h4{
+ color: #1BBF00;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 800;
+ font-size: 64px;
+ line-height: 68px;
+}
+#clientpart .client-details p{
+ color: #141135;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 40px;
+ position: relative;
+}
+
+#clientpart .client-details p::before {
+	content: '';
+	position: absolute;
+	width: 3px;
+	height: 92px;
+	background: rgba(79, 88, 95, 0.2);
+	top: -66px;
+	left: 300px;
+}
+.demo p::before{
+    display: none;
+}

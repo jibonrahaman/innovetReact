@@ -1,0 +1,89 @@
+#plan{
+    padding: 100px 0px;
+    background: #F9F9FB;
+   }
+   #plan .rightplan h3{
+    font-family: 'Open Sans';
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+color: #141135;
+margin-bottom: 64px;
+   }
+   .amount h5{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height, or 120% */
+
+
+color: #141135;
+}
+.amount{
+    position: relative;
+}
+.amount p {
+	top: 234px;
+	left: 162px;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 25px;
+	color: #1BBF00;
+	position: absolute;
+}
+.amount p span {
+	top: 0px;
+	left: 15px;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 50px;
+	color: #1BBF00;
+	position: absolute;
+}
+.amount h3 {
+	font-family: 'Paprika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	text-align: center;
+	color: #726E9E;
+	width: 252px;
+	margin-top: 75px;
+	margin-left: 90px;
+}
+.amount img{
+    height: 191px;
+}
+.basic-card:hover{
+background: #6B62C5;
+border-radius: 20px;
+}
+.card-p{
+    background: #ffff;
+}
+.basic-card{
+    transition: 0.5s;
+}
+.basic-card{
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+.basic-card:hover .amount h5{
+    color:#fff;
+}
+.basic-card:hover .amount p{
+    color:#fff;
+}
+.basic-card:hover .amount span{
+    color:#fff;
+}
+.basic-card:hover .amount h3{
+    color:#fff;
+}
